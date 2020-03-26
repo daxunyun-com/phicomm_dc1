@@ -7,13 +7,13 @@
 3. 可查看电压、电流、功率
 4. 改造现成插座，简单，美观
 5. 间接有了智能台灯、智能风扇......
-6. APP远程控制（暂只支持iOS端）：在苹果App Store搜索“大讯云”使用APP调试工具控制 或 大讯云开源的[智能插座APP](https://github.com/daxunyun/SmartOutlet2iOS)
+6. APP远程控制（暂只支持iOS端）：在苹果App Store搜索“大讯云”使用APP调试工具控制 或 大讯云开源的[智能插座APP](https://github.com/daxunyun-com/SmartOutlet2iOS)
 
 <img src="./image/DC1.jpg"> 
 
 ## 使用方法
 1. 部署大讯云到自己的服务器上，部署方法可以看：[从零开始搭建企业自己的私有智能物联网云平台](https://bbs.daxunyun.com/thread/5/detail.html)
-2. git clone https://github.com/daxunyun/phicomm_dc1.git
+2. git clone https://github.com/daxunyun-com/phicomm_dc1.git
 3. 修改 mqtt_config.h文件
 - `MQTT_HOST` 部署后的服务器域名或IP
 - `MQTT_PORT` 部署后的服务器端口号
